@@ -26,8 +26,6 @@ public class Ch2
         Double totalAge = age1 + age2;
         if (age1 > age2)
             System.out.println("you are older than " + name3);
-        else if (age1 = age2)
-            System.out.println("you guys have the same age");
         else
             System.out.println(" you are younger than " + name3);
         System.out.println("Your first name is " + name);
