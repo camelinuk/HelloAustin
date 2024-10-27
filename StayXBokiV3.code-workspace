@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../StayXBokiV3"
+		},
+		{
+			"name": "SSH FS - CMP2-JPP",
+			"uri": "ssh://cmp2-jpp/var/www/html/onJPP/Man/trunk"
+		}
+	],
+	"settings": {}
+}
