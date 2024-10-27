@@ -1,10 +1,9 @@
 class Ch2_4{
   public static void main(String[] args){
-      int max=0,maxLine=0,k=0,x=0, ceil;
+      int max,k,x, ceil;
       java.util.Scanner sc = new java.util.Scanner(System.in);
       System.out.print("Please input max num of star = ");
       max = sc.nextInt();
-      maxLine = max * 2;
       ceil =(int) Math.ceil(max/2);
       sc.nextLine();
       for (int i=1; i <= max ; i++){
