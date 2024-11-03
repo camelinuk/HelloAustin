@@ -1,6 +1,6 @@
 class Ch2_3{
   public static void main(String[] args){
-      int max=0;
+      int max;
       java.util.Scanner sc = new java.util.Scanner(System.in);
       System.out.print("Please input max num of star = ");
       max = sc.nextInt();
@@ -20,15 +20,5 @@ class Ch2_3{
         }
         System.out.println();
       }
-  }
-  private static void space(Integer iNum){
-    for(int i=0; i<iNum;i++ ){
-     System.out.print(" ");
-    }
-  }
-  private static void star(Integer iNum){
-    for(int i=0; i<iNum;i++ ){
-     System.out.print("* ");
-    }
   }
 }
